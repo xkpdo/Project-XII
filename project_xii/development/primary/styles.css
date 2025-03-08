@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+}
+
+header {
+    background-color: #0f3460;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #eaeaea;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
