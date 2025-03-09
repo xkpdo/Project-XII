@@ -27,3 +27,48 @@ nav ul {
     justify-content: center;
     gap: 1rem;
 }
+
+.login-container {
+    text-align: center;
+    background: #0f3460;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.login-container h1 {
+    color: #eaeaea;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.login-container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #cfd8e3;
+}
+
+.login-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7289da;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #5b6eae;
+}
+
+.login-container:body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('replace_me.jpg');
+    background-size: cover;
+}
